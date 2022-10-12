@@ -5,6 +5,7 @@
     console.log(today.toLocaleString('en-US', { hour12: false }))
     
     const options = {
+          weekday: 'long',
            year: 'numeric',
           month: 'long',
           day: 'numeric',
